@@ -5,6 +5,28 @@ body {
     font-family:monospace;
     color:rgb(143, 164, 204)
 }
+
+div.topnav {
+    font-family: monospace;
+    font-size: 20px;
+    text-align: right;
+    margin-right: 5%;
+}
+
+.topnav a {
+    float: right;
+    padding: 10px 16px;
+    color:rgb(143, 164, 204);
+}
+
+.topnav a:hover {
+    background-color: #000;
+}
+
+.topnav a.active {
+    color:white;
+}
+
 div.intro {
     position: absolute;
     left: 20%;

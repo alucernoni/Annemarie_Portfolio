@@ -1,5 +1,7 @@
 body {
-    background:rgb(34, 119, 34);
+    background-image: url("./images/boston-fern-unsplash.jpg");
+    background-size: cover;
+    background-position: top no-repeat;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    color:rgb(109, 145, 211)
+    color:rgb(143, 164, 204)
 }

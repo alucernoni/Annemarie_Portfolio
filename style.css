@@ -1,5 +1,13 @@
-body {
+body.landingpage {
     background-image: url("./images/boston-fern-unsplash.jpg");
+    background-size: cover;
+    background-position: top no-repeat;
+    font-family:monospace;
+    color:rgb(143, 164, 204)
+}
+
+body.page {
+    background-image: url("./images/close-fern-unsplash.jpg");
     background-size: cover;
     background-position: top no-repeat;
     font-family:monospace;
@@ -33,12 +41,26 @@ div.intro {
     top: 35%;
 }
 
-h1 {
+h1.intro {
     font-size: 50px;
     font-weight: 600;
-    font-style: oblique;
+    font-style:italic;
 }
 
 p {
     font-size:xx-large;
+}
+
+div.page {
+    position: absolute;
+    left: 20%;
+    top: 35%;
+    margin-right: 15%;
+    padding-bottom: 15%;
+}
+
+h1.page {
+    font-size: 50px;
+    font-weight: 400;
+    font-style: oblique;
 }
